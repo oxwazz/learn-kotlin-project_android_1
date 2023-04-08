@@ -49,6 +49,7 @@
         android:backgroundTint="@color/btnBgColor" />
 
     <TextView
+        android:id="@+id/tvSelectedDate"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -67,6 +68,7 @@
         android:textStyle="bold" />
 
     <TextView
+        android:id="@+id/tvAgeInMinutes"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -79,7 +81,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Selected Date"
+        android:text="Age In Minutes"
         android:textColor="@color/lightGrey"
         android:textSize="25sp"
         android:textStyle="bold" />
